@@ -9,5 +9,6 @@ monitoring.ui.container.elasticsearch.enabled: true
 
 ## X-Pack security credentials
 #
-elasticsearch.username: elastic
-elasticsearch.password: changeme
+# elasticsearch.username: elastic
+# elasticsearch.password: changeme
+csp.rules: ["default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://localhost:3333; frame-src 'self' http://localhost:3333 "]
